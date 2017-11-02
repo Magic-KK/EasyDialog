@@ -8,7 +8,6 @@ import android.widget.TextView;
 
 import com.custom.supereasydialog.view.EasyDialog;
 
-
 /**
  * @name zk
  * @class name：多按钮布局
@@ -23,7 +22,6 @@ public class MoreBtnCustomizeActivity extends AppCompatActivity {
         initView();
     }
 
-
     private void initView() {
         Button btn_show = (Button) findViewById(R.id.btn_show);
         btn_show.setOnClickListener(new View.OnClickListener() {
@@ -33,7 +31,6 @@ public class MoreBtnCustomizeActivity extends AppCompatActivity {
             }
         });
     }
-
 
     private void showDialog() {
         final EasyDialog dialog = new EasyDialog(R.layout.dialog_home_start, this);
