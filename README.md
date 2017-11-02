@@ -13,6 +13,7 @@
 ```
 
 2.默认布局dialog 单按钮使用方法
+```java
   final EasyDialog dialog = new EasyDialog(EasyDialog.DEFAULT_ONE_BTN, this);
         dialog.show();
         //设置标题
@@ -30,4 +31,5 @@
             }
         });
     }
+```
     
